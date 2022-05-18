@@ -16,3 +16,12 @@ npm run dev
 # Build for prod and export static website
 npm run build
 ```
+
+
+echo "# devblog" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/broklyn777/devblog.git
+git push -u origin main
